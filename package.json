@@ -1,0 +1,32 @@
+{
+  "name": "basic-api-server",
+  "version": "1.0.0",
+  "description": "## Version 1.0.00",
+  "main": "index.js",
+  "scripts": {
+    "init": "sequelize db:create",
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "test": "NODE_ENV=test jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbchomp/basic-api-server.git"
+  },
+  "author": "Heather Bisgaard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbchomp/basic-api-server/issues"
+  },
+  "homepage": "https://github.com/vbchomp/basic-api-server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.2.4",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2"
+  }
+}
