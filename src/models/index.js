@@ -1,7 +1,11 @@
 'use strict';
 
 // Connect to db 
-const DATABASE_URL = process.env.NODE_ENV === 'test' ? 'sqlite:memory' : process.env.DATABASE_URL;
+const DATABASE_URL = process.env.NODE_ENV === 'test' 
+? 'sqlite:memory'
+: process.env.NODE_ENV === 'production' 
+? process.env.HEROKU_POSTGRESQL_YELLOW_URL 
+: process.env.DATABASE_URL === 'development'; 
 
 // Configuration is ENV dependent - Test, Dev or Prod
 const { Sequelize, DataTypes } = require('sequelize');
