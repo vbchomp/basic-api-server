@@ -4,11 +4,11 @@
 
 ## Deployed Sites & PR
 
-- [main branch]()
+- [main branch](https://hbis-basic-api-server-prod.herokuapp.com/)
 
-- [dev]()
+- [dev](https://hbis-basic-api-server-dev.herokuapp.com/)
 
-- [PR]()
+- [PR](https://github.com/vbchomp/basic-api-server/pull/1)
 
 ## Author
 
@@ -22,7 +22,7 @@ Phil Murphy, Site Reliability Engineer
 
 ## References
 
-![UML](./src/UML.png)
+[UML](./src/UML.png)
 
 ## Set Up Notes for Basic Express Server to Test
 

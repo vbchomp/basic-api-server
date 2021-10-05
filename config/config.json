@@ -11,7 +11,7 @@
       "password": "password",
       "database": "people",
       "host": "127.0.0.1",
-      "dialect": "sqlite:memory:"
+      "dialect": "sqlite3:memory:"
     },
     "production": {
       "username": "veebs",

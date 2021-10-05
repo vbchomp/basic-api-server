@@ -13,10 +13,6 @@ const Clothes = (sequelize, DataTypes) => sequelize.define('Clothes', {
         type: DataTypes.STRING,
         allowNull: true,
     },
-    otherColor: {
-        type: DataTypes.STRING,
-        allowNull: true,
-    },
     size: {
         type: DataTypes.INTEGER,
         allowNull: true,

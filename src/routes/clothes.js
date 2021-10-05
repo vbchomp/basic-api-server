@@ -7,7 +7,6 @@ const { Clothes } = require('../models/index.js');
 const router = express.Router();
 
 // Routes
-
 // Add an article of clothing
 router.post('/clothes', addToCloset);
 // Get all records of clothing
