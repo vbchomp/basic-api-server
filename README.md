@@ -6,7 +6,7 @@
 
 - [main branch](https://hbis-basic-api-server-prod.herokuapp.com/)
 
-- [dev](https://hbis-basic-api-server-dev.herokuapp.com/)
+- [dev/dev2](https://hbis-basic-api-server-dev.herokuapp.com/)
 
 - [PR](https://github.com/vbchomp/basic-api-server/pull/1)
 
@@ -19,6 +19,7 @@ Heather Bisgaard, Software Engineer
 Tom McGuire, Software Dev
 Charlie Fadness, Software Dev
 Phil Murphy, Site Reliability Engineer
+Kris Esvelt, Tutor helped with testing
 
 ## References
 
