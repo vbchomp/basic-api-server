@@ -37,7 +37,11 @@ async function getMyClothes (req, res) {
 async function getAnArticle (req, res) {
     const id = parseInt(req.params.id);
     let article = await Clothes.findOne({ where: { id: id } });
-    res.status(200).json(article);
+    if (!article) {
+        res.status(400).send('ID not found');
+    } else {
+        res.status(200).json(article);
+    }
 }
 
 // update record
